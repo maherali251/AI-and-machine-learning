@@ -1,5 +1,5 @@
 AI/ML Internship Tasks — DevelopersHub
-This repository contains my work for Task 1, Task 2, and Task 3 from the AI/ML Engineering Internship at DevelopersHub Corporation.
+This repository contains my work for Task 1, Task 2,  Task 3,Task 4 and Task 6 from the AI/ML Engineering Internship at DevelopersHub Corporation.
 
 Intern Name: Ali Ghouse
 
@@ -106,6 +106,43 @@ Decision Tree	XX%	X.XX
 Replace XX% and X.XX with your results.
 
 Tools Used: Python, Pandas, Matplotlib, Scikit-learn
+Task 4 — Health Chatbot
+
+Description:
+In this task, I developed a safe conversational health assistant. The chatbot uses a small chat-tuned language model to respond to user health-related queries in natural language. It also includes conversation memory, allowing it to understand context from the last few turns. A safety layer was added to ensure the chatbot does not provide diagnoses, prescriptions, or unsafe advice. Instead, it gives general information and always appends a safety disclaimer directing the user to professional help or emergency services if required.
+
+Key Features:
+
+Built using HuggingFace transformers pipeline.
+
+Maintains short-term memory (remembers last 5 user–bot exchanges).
+
+Filters unsafe queries (diagnosis, medicine, self-harm).
+
+Always outputs “I’m not a doctor. General info only. Contact emergency services if urgent.”
+
+Example queries: causes of headaches, avoiding dehydration, healthy habits.
+
+📌 Task 6 — House Price Prediction
+
+Description:
+In this task, I developed a machine learning regression model to predict house prices based on features like square footage, number of bedrooms, bathrooms, and city. The project demonstrates a full ML workflow: data preparation, preprocessing, model training, evaluation, visualization, and saving trained models for later use.
+
+Key Features:
+
+Dataset: synthetic data generated (or user-provided data.csv).
+
+Preprocessing: numerical scaling + categorical encoding (cities).
+
+Models: Linear Regression (baseline) and Gradient Boosting Regressor (advanced).
+
+Evaluation: MAE (Mean Absolute Error) and RMSE (Root Mean Squared Error).
+
+Visualization: scatter plot of actual vs predicted prices.
+
+Artifacts: trained models saved as .joblib files for reuse.
+
+Custom prediction example: house with 2000 sqft, 3 bedrooms, 2 bathrooms in Karach
 
 📂 Files
 Task1_Iris_Exploration.ipynb
@@ -114,4 +151,4 @@ Task2_StockPrediction.ipynb
 
 Task3_HeartDisease.ipynb
 
-heart.csv (for Task 3)
+
